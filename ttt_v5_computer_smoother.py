@@ -35,7 +35,7 @@ def evaluate(boardev):
     return(gameon)   #returns True if the game goes on
 
 
-def checks_index(s, index):  #borrowed by https://stackoverflow.com/questions/41752946/replacing-a-character-from-a-certain-index
+def checks_index(s, index):  #borrowed and adapted by https://stackoverflow.com/questions/41752946/replacing-a-character-from-a-certain-index
     # raise an error if index is outside of the string
     valid_index = False
     if index not in range(len(s)):
@@ -112,7 +112,7 @@ def tictactoe_1d():
 
     return()
 
-#main
+#calling the function to start and play the game
 tictactoe_1d()
 
 print("End of the programm. Bye!")
